@@ -8,10 +8,10 @@ export default class Bands extends Component {
 
   render() {
     return (
-      <section>
-        <div>
-          <Band />
-        </div>
+      <section className='band-container'>
+        <button>left</button>
+        <Band />
+        <button>right</button>
       </section>
     )
   }

@@ -8,8 +8,8 @@ export default class Search extends Component {
   render() {
     return  (
       <form>
-        <input placeholder='Search...' />
-        <button>Submit</button>
+        <input className='search-input' placeholder='Search...' />
+        <button className='search-btn'>Submit</button>
       </form>
     )
   }
