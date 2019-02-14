@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      fetchData: null
+      genres: [],
+      bands: []
       // organizeData: () => {
       //   psychMusic.reduce((arr, genre) => {
       //     arr.push(bands.filter((band) => {
@@ -18,6 +19,19 @@ class App extends Component {
       // }
     }
   }
+
+  componentDidMount() {
+    fetch('http://whateverly-datasets.herokuapp.com/api/v1/psychMusic')
+      .then(psychMusic => psychMusic.json())
+      .then(music => this.setState({ genres: music }))
+      .catch(err => console.log('music error', err))
+    fetch('http://whateverly-datasets.herokuapp.com/api/v1/bands')
+    .then(bands => bands.json())
+    .then(band => this.setState({ bands: band }))
+    .catch(err => console.log('band error', err))
+  }
+
+
   render() {
     return (
       <div className='app'>
