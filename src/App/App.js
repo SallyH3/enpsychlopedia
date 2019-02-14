@@ -4,6 +4,20 @@ import Header from '../Header/Header.js';
 import Genre from '../Genre/Genre.js';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      fetchData: null
+      // organizeData: () => {
+      //   psychMusic.reduce((arr, genre) => {
+      //     arr.push(bands.filter((band) => {
+      //       return genre.id === band.genreId;
+      //     }))
+      //     return acc;
+      //   }, []);
+      // }
+    }
+  }
   render() {
     return (
       <div className='app'>
