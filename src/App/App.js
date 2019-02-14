@@ -8,29 +8,34 @@ class App extends Component {
     super();
     this.state = {
       genres: [],
-      bands: []
-      // organizeData: () => {
-      //   psychMusic.reduce((arr, genre) => {
-      //     arr.push(bands.filter((band) => {
-      //       return genre.id === band.genreId;
-      //     }))
-      //     return acc;
-      //   }, []);
-      // }
+      bands: [],
+      bandsById: null
     }
+  }
+
+   organizeData = () =>  {
+    let data = this.state.genres.reduce((arr, genre) => {
+        arr.push(this.state.bands.filter((band) => {
+          return genre.id == band.genreId;
+        }))
+        return arr;
+      }, []);
+    this.setState({ 
+      bandsById: data
+    })
   }
 
   componentDidMount() {
     fetch('http://whateverly-datasets.herokuapp.com/api/v1/psychMusic')
-      .then(psychMusic => psychMusic.json())
-      .then(music => this.setState({ genres: music }))
+      .then(response => response.json())
+      .then(music => this.setState({ genres: music.psychMusic }))
       .catch(err => console.log('music error', err))
     fetch('http://whateverly-datasets.herokuapp.com/api/v1/bands')
-    .then(bands => bands.json())
-    .then(band => this.setState({ bands: band }))
-    .catch(err => console.log('band error', err))
+      .then(response => response.json())
+      .then(band => this.setState({ bands: band.bands }))
+      .then(() => {this.organizeData()})
+      .catch(err => console.log('band error', err))
   }
-
 
   render() {
     return (
