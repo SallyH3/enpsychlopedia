@@ -9,17 +9,17 @@ class App extends Component {
     this.state = {
       genres: [],
       bands: [],
-      bandsById: null
+      bandsById: []
     }
   }
 
    organizeData = () =>  {
     let data = this.state.genres.reduce((arr, genre) => {
         arr.push(this.state.bands.filter((band) => {
-          return genre.id == band.genreId;
+          return genre.id === band.genreId;
         }))
         return arr;
-      }, []);
+      }, []); 
     this.setState({ 
       bandsById: data
     })
@@ -29,6 +29,7 @@ class App extends Component {
     fetch('http://whateverly-datasets.herokuapp.com/api/v1/psychMusic')
       .then(response => response.json())
       .then(music => this.setState({ genres: music.psychMusic }))
+      .then(() => {this.organizeData()})
       .catch(err => console.log('music error', err))
     fetch('http://whateverly-datasets.herokuapp.com/api/v1/bands')
       .then(response => response.json())
@@ -43,7 +44,7 @@ class App extends Component {
       <div className='app'>
         <Header />
         {this.state.genres.map((genre, index) => (
-          <Genre key={index} 
+          <Genre key={index}
                  genre={genre}
                  sortedBands={this.state.bandsById[index]}
           />
