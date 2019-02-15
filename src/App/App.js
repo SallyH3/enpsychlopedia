@@ -38,12 +38,16 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.bandsById)
     return (
       <div className='app'>
         <Header />
-        <Genre genreId = {1} />
-        <Genre genreId = {2} />
-        <Genre genreId = {3} />
+        {this.state.genres.map((genre, index) => (
+          <Genre key={index} 
+                 genre={genre}
+                 sortedBands={this.state.bandsById[index]}
+          />
+        ))}
       </div>
     );
   }

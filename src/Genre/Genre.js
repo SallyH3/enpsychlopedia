@@ -6,7 +6,7 @@ const Genre = (props) => {
   return (
     <section className='genre-container'>
       <div className='genre-title-container'>
-        <h1>Genre placeholder</h1>
+        <h1>{props.genre.genre}</h1>
         <Controls />
       </div>
       <Bands 
