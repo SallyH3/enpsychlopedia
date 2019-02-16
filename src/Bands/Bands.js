@@ -7,9 +7,8 @@ export default class Bands extends Component {
   }
 
   render() {
-    // console.log(props)
     return (
-      <section className='band-container'>
+      <section className='bands-wrapper'>
         {this.props.genreBands.map((band, index) => (
           <Band key={index}
                  bandName={band.name}

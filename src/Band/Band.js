@@ -3,9 +3,11 @@ import Bands from '../Bands/Bands';
 
 const Band = (props) => {
  return (
-   <div>
-     <img src = {props.bandImg} />
-     <h2>{props.bandName}</h2>
+   <div className="scroll-container">
+    <div className="band-container">
+      <img className="band-image" src = {props.bandImg} />
+      <h2 className="band-name">{props.bandName}</h2>
+    </div>
    </div>
  )
 }
