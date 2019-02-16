@@ -1,11 +1,11 @@
 import React from 'react';
 import Bands from '../Bands/Bands';
 
-const Band = () => {
+const Band = (props) => {
  return (
    <div>
-     <img src = '' />
-     <h2>Sparklehorse</h2>
+     <img src = {props.bandImg} />
+     <h2>{props.bandName}</h2>
    </div>
  )
 }
