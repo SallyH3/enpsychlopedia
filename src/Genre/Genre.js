@@ -33,7 +33,9 @@ getActivity = activity => {
         />
       </div>
       <h1>{this.props.genreIndex}</h1>
-      <Bands genreBands={this.props.sortedBands}
+      <Bands 
+        genreBands={this.props.sortedBands}
+        currentSelection={this.state.currentBands}
       />
     </section>
   )

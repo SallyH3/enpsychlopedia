@@ -1,5 +1,4 @@
 import React from 'react';
-import Bands from '../Bands/Bands';
 
 const Band = (props) => {
  return (
