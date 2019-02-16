@@ -4,9 +4,13 @@ import Band from '../Band/Band.js';
 export default class Bands extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      current: props.all
+    }
   }
 
   render() {
+    
     return (
       <section className='bands-wrapper'>
         {this.props.genreBands.map((band, index) => (
@@ -15,7 +19,6 @@ export default class Bands extends Component {
                  bandImg={band.image}
           />
         ))}
-        <Band />
       </section>
     )
   }
