@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls should match snapshot 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    All
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Active
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Inactive
+  </button>
+</div>
+`;

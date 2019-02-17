@@ -20,6 +20,7 @@ class App extends Component {
         }))
         return arr;
       }, []); 
+      console.log(data)
     this.setState({ 
       bandsById: data
     })
