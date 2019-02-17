@@ -5,16 +5,31 @@ export default class Bands extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: this.props.genreBands.filter(band => {
-        return band.active === true;
-      }),
-      inactive: this.props.genreBands.filter(band => {
-        return band.active === false;
-      })
+      active: [],
+      inactive: []
     }
   }
 
-  render() {
+  assignActiveBands() {
+    let activeBands = this.props.genreBands.filter(band => {
+        return band.active === true;
+      })
+    this.setState({active: activeBands})
+  }
+
+  assignInactiveBands() {
+    let inactiveBands = this.props.genreBands.filter(band => {
+        return band.active === false;
+      })
+    this.setState({inactive: inactiveBands})
+  }
+
+  componentWillReceiveProps() {
+    this.assignActiveBands();
+    this.assignInactiveBands();
+  }
+
+  render() { 
   let fallback = this.props.currentSelection;
   if (!fallback) { 
     return (
