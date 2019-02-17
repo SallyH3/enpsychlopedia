@@ -29,6 +29,40 @@ export default class Bands extends Component {
     this.assignInactiveBands();
   }
 
+  filterAllBands(props) {
+    console.log(props)
+    return (
+      {this.props.genreBands.map((band, index) => (
+        <Band key={index}
+               bandName={band.name}
+               bandImg={band.image}
+        />
+      ))}
+    )
+  }
+
+  filterActiveBands() {
+    return(
+      {this.state.active.map((band, index) => (
+        <Band key={index}
+                bandName={band.name}
+                bandImg={band.image}
+            />
+          ))}
+    )
+  }
+
+  filterInactiveBands() {
+    return(
+      {this.state.inactive.map((band, index) => (
+        <Band key={index}
+               bandName={band.name}
+               bandImg={band.image}
+        />
+      ))}
+    )
+  }
+
   render() { 
   let fallback = this.props.currentSelection;
   if (!fallback) { 
@@ -36,39 +70,16 @@ export default class Bands extends Component {
       <h1>Hi Sally!</h1>
     )
   }
-    if(this.props.currentSelection === 'all') {
-      return (
-        <section className='bands-wrapper'>
-          {this.props.genreBands.map((band, index) => (
-            <Band key={index}
-                   bandName={band.name}
-                   bandImg={band.image}
-            />
-          ))}
-        </section>
-      )
-    } else if (this.props.currentSelection === 'active') {
-      return (
-        <section className='bands-wrapper'>
-          {this.state.active.map((band, index) => (
-            <Band key={index}
-                   bandName={band.name}
-                   bandImg={band.image}
-            />
-          ))}
-        </section>
-      )
-    } else {
-      return (
-        <section className='bands-wrapper'>
-          {this.state.inactive.map((band, index) => (
-            <Band key={index}
-                   bandName={band.name}
-                   bandImg={band.image}
-            />
-          ))}
-        </section>
-      )
-    }
+    return (
+      <section className='bands-wrapper'>
+        if(this.props.currentSelection === 'all') {
+          {this.filterAllBands(this.props)}
+        } else if (this.props.currentSelection === 'active') {
+          {this.filterActiveBands()}
+        } else {
+          {this.filterInactiveBands()}
+        }
+      </section>
+    )
   }
 }
