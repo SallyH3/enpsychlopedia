@@ -1,0 +1,22 @@
+.band-container {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.band-image {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+
+.band-name {
+  position: relative;
+  bottom: 150px;
+  padding: 0 10px;
+  z-index: 2;
+}

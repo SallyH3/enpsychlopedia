@@ -39,7 +39,7 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.bandsById)
+    // console.log(this.state.bandsById)
     return (
       <div className='app'>
         <Header />
