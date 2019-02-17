@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Bands from '../Bands/Bands.js';
 import Controls from '../Controls/Controls.js';
-import { all } from 'q';
-
 
 export default class Genre extends Component {
   constructor(props) {
@@ -12,13 +10,12 @@ export default class Genre extends Component {
     }
   }
  
-getActivity = activity => {
-  this.setState({currentBands: activity})
-}
+  getActivity = activity => {
+    this.setState({currentBands: activity})
+  }
 
   render() {
     let bandsOrganized = this.props.sortedBands;
-      console.log(this.state.currentBands)
     if (!bandsOrganized) { 
       return (
         <h1>Hi Sally!</h1>
@@ -39,7 +36,5 @@ getActivity = activity => {
       />
     </section>
   )
-   }
+  }
 }
-
-// export default Genre;
