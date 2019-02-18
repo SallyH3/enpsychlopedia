@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Band should match snapshot 1`] = `
+<div
+  className="scroll-container"
+>
+  <div
+    className="band-container"
+    onClick={[Function]}
+  >
+    <img
+      className="band-image"
+      src="https://i.imgur.com/ciMF4gb.jpg"
+    />
+    <h2
+      className="band-name"
+    >
+      Sparklehorse
+    </h2>
+  </div>
+</div>
+`;

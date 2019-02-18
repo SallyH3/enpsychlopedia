@@ -10,17 +10,17 @@ import { shallow } from 'enzyme';
       origin: "Richmond Virginia",
       image: "https://i.imgur.com/ciMF4gb.jpg",
       members: [
-      "Mark Linkous",
-      "Scott Minor"
+        "Mark Linkous",
+        "Scott Minor"
       ],
       genreId: 1,
       active: false,
       label: "Slow River",
       sideProjects: [
-      "Danger Mouse",
-      "Sol Seppy",
-      "David Lynch",
-      "Angela Faye Martin"
+        "Danger Mouse",
+        "Sol Seppy",
+        "David Lynch",
+        "Angela Faye Martin"
       ]
     },
     {
@@ -28,46 +28,46 @@ import { shallow } from 'enzyme';
       origin: "Dorset England",
       image: "https://i.imgur.com/oZCj9bF.jpg",
       members: [
-      "Jus Oborn",
-      "Liz Buckingham",
-      "Clayton Burgess",
-      "Simon Poole"
+        "Jus Oborn",
+        "Liz Buckingham",
+        "Clayton Burgess",
+        "Simon Poole"
       ],
       genreId: 2,
       active: true,
       label: "Rise Above",
       sideProjects: [
-      "Ramesses",
-      "Sourvein",
-      "Iron Monkey",
-      "Teeth of Lions",
-      "Rule the Divine",
-      "Crippled Black Phoenix",
-      "With the Dead"
+        "Ramesses",
+        "Sourvein",
+        "Iron Monkey",
+        "Teeth of Lions",
+        "Rule the Divine",
+        "Crippled Black Phoenix",
+        "With the Dead"
       ]
-      },
-      {
-        name: "Ride",
-        origin: "Oxford England",
-        image: "https://i.imgur.com/B41x1yH.jpg",
-        members: [
+    },
+    {
+      name: "Ride",
+      origin: "Oxford England",
+      image: "https://i.imgur.com/B41x1yH.jpg",
+      members: [
         "Andy Bell",
         "Laurence Colbert",
         "Mark Gardener",
         "Steve Queralt"
-        ],
-        genreId: 3,
-        active: true,
-        label: "Creation",
-        sideProjects: [
+      ],
+      genreId: 3,
+      active: true,
+      label: "Creation",
+      sideProjects: [
         "Oasis",
         "Beady Eye",
         "The Jesus and Mary Chain",
         "Gay Dad",
         "The Animalhouse",
         "Infinite Cassette"
-        ]
-        }  
+      ]
+      }  
   ]
 
 describe('App', () => {

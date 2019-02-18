@@ -5,7 +5,7 @@ import '../Styles/Header.scss'
 const Header = (props) => {
     return (
     <div className='header-container'>
-        <h1>enpsychlopedia</h1>
+        <h1 className='header-title'>enpsychlopedia</h1>
         <Search
         />
     </div>

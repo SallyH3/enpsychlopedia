@@ -59,7 +59,7 @@ export default class Bands extends Component {
     currentBandInfo={this.state.currentPopup}
   />
   } else {
-    popup = <h1>hi</h1>
+    popup = <h1 className="backup"></h1>
   }
 
   return (
