@@ -11,11 +11,11 @@ export default class Band extends Component {
 
   render() {
     return (
-      <div className="scroll-container">
-       <div onClick={this.sendBandData} className="band-container">
-         <img className="band-image" src = {this.props.band.image} />
-         <h2 className="band-name">{this.props.band.name}</h2>
-       </div>
+      <div className='scroll-container'>
+        <div onClick={this.sendBandData} style={{backgroundImage: `url(${this.props.band.image})`}} className="band-container">
+          <h2 className='band-name'>{this.props.band.name}</h2>
+          <div className='overlay'></div>
+        </div>
       </div>
     )
   }
