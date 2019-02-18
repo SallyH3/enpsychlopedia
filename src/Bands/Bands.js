@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Band from '../Band/Band.js';
+import Popup from '../Popup/Popup.js';
 
 export default class Bands extends Component {
   constructor(props) {
@@ -30,8 +31,8 @@ export default class Bands extends Component {
     this.assignInactiveBands();
   }
 
-  fetchCurrentBand(band) {
-    console.log(band)
+  fetchCurrentBand = (band) => {
+    this.setState({currentPopup: band})
   }
 
   render() { 
@@ -39,13 +40,10 @@ export default class Bands extends Component {
   let currentFilter;
   
   if(this.props.currentSelection === 'all') {
-    console.log(1)
     currentFilter = this.props.genreBands
   } else if (this.props.currentSelection === 'active') {
-    console.log(2)
     currentFilter = this.state.active
   } else {
-    console.log(3)
     currentFilter = this.state.inactive
   }
   
@@ -53,6 +51,15 @@ export default class Bands extends Component {
     return (
       <h1>Hi Sally!</h1>
     )
+  }
+
+  let popup;
+  if(this.state.currentPopup.image) {
+    popup = <Popup 
+    currentBandInfo={this.state.currentPopup}
+  />
+  } else {
+    popup = <h1>hi</h1>
   }
 
   return (
@@ -64,6 +71,7 @@ export default class Bands extends Component {
           fetchBand={this.fetchCurrentBand}
         />
       ))}
+      {popup}
     </section>
   )
   }
