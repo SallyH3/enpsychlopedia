@@ -6,7 +6,8 @@ export default class Bands extends Component {
     super(props);
     this.state = {
       active: [],
-      inactive: []
+      inactive: [],
+      currentPopup: {}
     }
   }
 
@@ -27,6 +28,10 @@ export default class Bands extends Component {
   componentWillReceiveProps() {
     this.assignActiveBands();
     this.assignInactiveBands();
+  }
+
+  fetchCurrentBand(band) {
+    console.log(band)
   }
 
   render() { 
@@ -52,8 +57,10 @@ export default class Bands extends Component {
       {currentFilter.map((band, index) => (
         <Band 
           key={index}
+          band={band}
           bandName={band.name}
           bandImg={band.image}
+          fetchBand={this.fetchCurrentBand}
         />
       ))}
     </section>
