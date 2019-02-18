@@ -39,10 +39,13 @@ export default class Bands extends Component {
   let currentFilter;
   
   if(this.props.currentSelection === 'all') {
+    console.log(1)
     currentFilter = this.props.genreBands
   } else if (this.props.currentSelection === 'active') {
+    console.log(2)
     currentFilter = this.state.active
   } else {
+    console.log(3)
     currentFilter = this.state.inactive
   }
   
@@ -58,8 +61,6 @@ export default class Bands extends Component {
         <Band 
           key={index}
           band={band}
-          bandName={band.name}
-          bandImg={band.image}
           fetchBand={this.fetchCurrentBand}
         />
       ))}
