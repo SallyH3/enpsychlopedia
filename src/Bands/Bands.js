@@ -8,8 +8,13 @@ export default class Bands extends Component {
     this.state = {
       active: [],
       inactive: [],
-      currentPopup: {}
+      currentPopup: {},
+      showPopup: false
     }
+  }
+
+  togglePopup() {
+    this.setState({showPopup: !this.state.showPopup})
   }
 
   assignActiveBands() {

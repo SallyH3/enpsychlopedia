@@ -1,21 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Popup = (props) => {
-  console.log(props.currentBandInfo)
+export default class Popup extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  closePopup() {
+    
+  }
+
+  render() {
   return (
     <div className='popup-container'>
-      <img src={props.currentBandInfo.image} />
-      <h4>{props.currentBandInfo.name}</h4>
-      <h4>{props.currentBandInfo.origin}</h4>
-      <h4>{props.currentBandInfo.members.map(member => {
+      <img src={this.props.currentBandInfo.image} />
+      <h4>{this.props.currentBandInfo.name}</h4>
+      <h4>{this.props.currentBandInfo.origin}</h4>
+      <h4>{this.props.currentBandInfo.members.map(member => {
         return <h2>{member}</h2>
       })}</h4>
-      <h4>{props.currentBandInfo.label}</h4>
-      <h4>{props.currentBandInfo.sideProjects.map(project => {
+      <h4>{this.props.currentBandInfo.label}</h4>
+      <h4>{this.props.currentBandInfo.sideProjects.map(project => {
         return <h2>{project}</h2>
       })}</h4>
+      <button className='close-popup' onClick={this.closePopup}>X</button>
     </div>
   )
+  }
 }
-
-export default Popup;
