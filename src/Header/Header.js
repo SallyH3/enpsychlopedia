@@ -9,6 +9,7 @@ const Header = (props) => {
         <Search
         />
     </div>
+    
     )
 }
 
