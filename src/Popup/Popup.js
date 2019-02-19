@@ -5,10 +5,6 @@ export default class Popup extends Component {
     super(props);
   }
 
-  closePopup() {
-    
-  }
-
   render() {
   return (
     <div className='popup-container'>
@@ -22,7 +18,7 @@ export default class Popup extends Component {
       <h4>{this.props.currentBandInfo.sideProjects.map(project => {
         return <h2>{project}</h2>
       })}</h4>
-      <button className='close-popup' onClick={this.closePopup}>X</button>
+      <button className='close-popup' onClick={this.props.closePopup}>X</button>
     </div>
   )
   }
