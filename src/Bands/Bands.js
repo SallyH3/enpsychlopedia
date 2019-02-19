@@ -13,8 +13,8 @@ export default class Bands extends Component {
     }
   }
 
-  togglePopup() {
-    this.setState({showPopup: !this.state.showPopup})
+  togglePopup = () => {
+    this.setState({ showPopup: !this.state.showPopup });
   }
 
   assignActiveBands() {
@@ -37,7 +37,8 @@ export default class Bands extends Component {
   }
 
   fetchCurrentBand = (band) => {
-    this.setState({currentPopup: band})
+    this.setState({currentPopup: band});
+    this.togglePopup();
   }
 
   render() { 
@@ -58,15 +59,6 @@ export default class Bands extends Component {
     )
   }
 
-  let popup;
-  if(this.state.currentPopup.image) {
-    popup = <Popup 
-    currentBandInfo={this.state.currentPopup}
-  />
-  } else {
-    popup = <h1 className="backup"></h1>
-  }
-
   return (
     <section className='bands-wrapper'>
       {currentFilter.map((band, index) => (
@@ -76,7 +68,12 @@ export default class Bands extends Component {
           fetchBand={this.fetchCurrentBand}
         />
       ))}
-      {popup}
+      {this.state.showPopup ? 
+          <Popup 
+            currentBandInfo={this.state.currentPopup} 
+            closePopup={this.togglePopup}/>
+          : null
+        }
     </section>
   )
   }
