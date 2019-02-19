@@ -19,6 +19,8 @@
 }
 
 .band-name {
+  color: hsla(234, 100%, 95%, 1);
+  font-family: $primary;
   padding: 0 10px;
   text-align: center;
   white-space: pre-line;

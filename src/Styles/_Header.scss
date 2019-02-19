@@ -1,3 +1,5 @@
+@import 'SassMixins';
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -5,6 +7,6 @@
   margin: 20px 40px;
 }
 
-
 .header-title {
+  font-family: $primary;
 }

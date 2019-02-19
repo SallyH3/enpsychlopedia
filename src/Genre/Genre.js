@@ -26,6 +26,16 @@ export default class Genre extends Component {
     <section className='genre-container'>
       <div className='genre-title-container'>
         <h1>{this.props.genre.genre}</h1>
+        <div className='characteristics-container'>Characteristics: 
+        {this.props.genre.characteristics.map((characteristic, i) => {
+          if(i === 0) {
+          return <h3 className='characteristic'>{characteristic}</h3>
+          } else {
+            return <h3 className='characteristic'>, {characteristic}</h3>
+            }
+          }
+        )}
+        </div>
         <Controls getActivity={this.getActivity}
         />
       </div>
