@@ -13,4 +13,18 @@ describe('Bands', () => {
   it('should match snapshot', () => {
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('should have default states', () => {
+    expect(wrapper.state()).toEqual({ 
+      active: [],
+      inactive: [],
+      currentPopup: {},
+      showPopup: false
+    });
+  });
+
+  it('should populate ')
+
+
+
 });
