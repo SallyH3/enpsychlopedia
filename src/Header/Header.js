@@ -1,6 +1,6 @@
 import React from 'react';
 import Search from '../Search/Search.js';
-import '../Styles/Header.scss'
+import '../Styles/_Header.scss'
 
 const Header = (props) => {
     return (
