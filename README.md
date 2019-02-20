@@ -71,6 +71,9 @@ We would like to provide the user with an auto-fill search bar to search through
 
 ---
 
+### Wireframe:
+
+<img width="825" alt="screen shot 2019-02-19 at 8 53 40 pm" src="https://user-images.githubusercontent.com/40863560/53065360-8ac6ed00-3488-11e9-919d-056a1a15b5a0.png">
 
 ### Desktop view:
 ---
