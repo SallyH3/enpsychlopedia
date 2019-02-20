@@ -2,10 +2,48 @@
   z-index: 3;
   background-color: pink;
   position: absolute;
+  width: 90%;
+}
+
+.popup-container h4 {
+  font-size: 18px;
+  margin: 0;
 }
 
 .close-popup {
+  @include btn-rules;
   border-radius: 50%;
+  background-color: gray;
+  float: right;
   height: 30px;
+  margin: 15px;
   width: 30px;
+}
+
+.popup-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.popup-bandname {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.popup-bandname h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  white-space: pre-line;
+}
+
+.popup-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  white-space: pre-line;
+}
+
+.popup-info p {
+  font-size: 14px;
 }

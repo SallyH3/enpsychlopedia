@@ -25,8 +25,8 @@ export default class Genre extends Component {
    return (
     <section className='genre-container'>
       <div className='genre-title-container'>
-        <h1>{this.props.genre.genre}</h1>
-        <div className='characteristics-container'>Characteristics: 
+        <h1>{this.props.genre.genre.toLowerCase()}</h1>
+        <div className='characteristics-container'>Characteristics: &nbsp; 
         {this.props.genre.characteristics.map((characteristic, i) => {
           if(i === 0) {
           return <h3 className='characteristic'>{characteristic}</h3>
