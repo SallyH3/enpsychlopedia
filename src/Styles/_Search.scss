@@ -3,3 +3,18 @@
   border: 0;
   height: 30px;
 }
+
+.search-input {
+  border-radius: 5px 0 0 5px;
+  text-indent: 5px;
+  width: 250px;
+}
+
+.search-btn {
+  background-color: grey;
+  border-radius: 0 5px 5px 0;
+  &:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+  }
+}

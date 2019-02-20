@@ -1,11 +1,14 @@
 .genre-container {
-  border: 1px solid black;
-  margin: 40px;
-  width: 1350px;
-  height: 500px;
+  margin: 0 40px;
 }
 
 .genre-title-container {
   display: flex;
   justify-content: space-between;
+  margin: 20px 0;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
 }

@@ -1,7 +1,14 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
 .app {
   background-color: lightblue;
   display: grid;
-  grid-template-rows: 100px 340px 340px 340px;
+  grid-template-rows: 100px 360px 360px 360px;
+  grid-template-columns: 100vw;
 }
 
 body {

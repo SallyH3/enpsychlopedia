@@ -22,7 +22,7 @@ returnInactiveBands = () => {
 
   render() {
     return  (
-     <div>
+     <div className="filter-btn">
        <button onClick = {this.returnAllBands}>All</button>
        <button onClick = {this.returnActiveBands}>Active</button>
        <button onClick = {this.returnInactiveBands}>Inactive</button>
