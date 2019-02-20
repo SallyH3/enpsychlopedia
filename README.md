@@ -3,7 +3,9 @@
 
 
 #### Authors:
-Sally Haefling, Mason France, David Cisneros
+Sally Haefling
+[Mason France](https://github.com/francepack)
+[David Cisneros](https://github.com/LittleD1808)
 
 
 #### Built with:
