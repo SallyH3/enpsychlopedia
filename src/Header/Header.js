@@ -6,7 +6,6 @@ const Header = (props) => {
     <div className='header-container'>
         <h1 className='header-title'>enpsychlopedia</h1>
     </div>
-    
     )
 }
 

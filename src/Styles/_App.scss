@@ -5,9 +5,9 @@
 }
 
 .app {
-  background-color: lightblue;
+  background-image: linear-gradient(yellow, purple, lightblue);
   display: grid;
-  grid-template-rows: 100px 360px 360px 360px;
+  grid-template-rows: 160px 360px 360px 360px;
   grid-template-columns: 100vw;
 }
 
@@ -24,4 +24,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media screen and (max-width: 1130px) {
+  .app {
+      grid-template-rows: 100px 410px 410px 410px;
+
+  }
 }

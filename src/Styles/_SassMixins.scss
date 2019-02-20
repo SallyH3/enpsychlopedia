@@ -15,6 +15,10 @@ $magic-red: #c8371b;
   color: white;
   font-weight: 800;
   height: 30px;
+  outline: none;
+  &:focus {
+    background-color: dodgerblue;
+  }
   &:hover {
     background-color: dodgerblue;
     cursor: pointer;
