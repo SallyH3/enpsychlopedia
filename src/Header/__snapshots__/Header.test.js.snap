@@ -9,6 +9,5 @@ exports[`Header should match snapshot 1`] = `
   >
     enpsychlopedia
   </h1>
-  <Search />
 </div>
 `;

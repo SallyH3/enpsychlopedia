@@ -18,11 +18,11 @@ export default class Popup extends Component {
         </div>  
       </div>
       <div className='popup-info'>
-        <h4>Members: &nbsp; {this.props.currentBandInfo.members.map(member => {
-          return <p>{member}</p>
+        <h4>Members: &nbsp; {this.props.currentBandInfo.members.map((member, index) => {
+          return <p key={index}>{member}</p>
         })}</h4>
-        <h4>Side Projects: &nbsp; {this.props.currentBandInfo.sideProjects.map(project => {
-          return <p>{project}</p>
+        <h4>Side Projects: &nbsp; {this.props.currentBandInfo.sideProjects.map((project, index) => {
+          return <p key={index}>{project}</p>
         })}</h4>
       </div>
     </div>
