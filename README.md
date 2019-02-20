@@ -31,7 +31,7 @@ Once you have cloned the repo, install the library dependencies. Run:
 ```bash
 npm install
 ```
-To run tests in the game program, Run:
+To run tests in the app program, Run:
 ```bash
 npm test
 ```
