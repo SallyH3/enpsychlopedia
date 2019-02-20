@@ -28,10 +28,10 @@ export default class Genre extends Component {
         <h1>{this.props.genre.genre.toLowerCase()}</h1>
         <div className='characteristics-container'>Characteristics: &nbsp; 
         {this.props.genre.characteristics.map((characteristic, i) => {
-          if(i === 0) {
+          if(i === this.props.genre.characteristics.length - 1) {
           return <h3 className='characteristic'>{characteristic}</h3>
           } else {
-            return <h3 className='characteristic'>, {characteristic}</h3>
+            return <h3 className='characteristic'>{characteristic}, &nbsp;</h3>
             }
           }
         )}
