@@ -2,13 +2,21 @@
 
 .header-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0px 40px;
 }
 
 .header-title {
+  color: $pink-purple;
   font-family: $primary;
-  font-size: 4rem;
-  margin-bottom: 50px;
+  font-size: 80px;
+  margin-top: 15px;
+}
+
+.header-blurb {
+  font-family: $primary;
+  font-size: 30px;
+  margin-top: 10px;
 }
