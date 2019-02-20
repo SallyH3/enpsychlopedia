@@ -2,11 +2,13 @@
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 20px 40px;
+  margin: 0px 40px;
 }
 
 .header-title {
   font-family: $primary;
+  font-size: 4rem;
+  margin-bottom: 50px;
 }
