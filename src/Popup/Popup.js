@@ -8,17 +8,23 @@ export default class Popup extends Component {
   render() {
   return (
     <div className='popup-container'>
-      <img src={this.props.currentBandInfo.image} />
-      <h4>{this.props.currentBandInfo.name}</h4>
-      <h4>{this.props.currentBandInfo.origin}</h4>
-      <h4>{this.props.currentBandInfo.members.map(member => {
-        return <h2>{member}</h2>
-      })}</h4>
-      <h4>{this.props.currentBandInfo.label}</h4>
-      <h4>{this.props.currentBandInfo.sideProjects.map(project => {
-        return <h2>{project}</h2>
-      })}</h4>
       <button className='close-popup' onClick={this.props.closePopup}>X</button>
+      <div className='popup-head'>
+        <img src={this.props.currentBandInfo.image} />
+        <div className='popup-bandname'>
+          <h1>{this.props.currentBandInfo.name}</h1>
+          <h4>{this.props.currentBandInfo.origin}</h4>
+          <h4>Label: &nbsp; {this.props.currentBandInfo.label}</h4>
+        </div>  
+      </div>
+      <div className='popup-info'>
+        <h4>Members: &nbsp; {this.props.currentBandInfo.members.map(member => {
+          return <p>{member}</p>
+        })}</h4>
+        <h4>Side Projects: &nbsp; {this.props.currentBandInfo.sideProjects.map(project => {
+          return <p>{project}</p>
+        })}</h4>
+      </div>
     </div>
   )
   }

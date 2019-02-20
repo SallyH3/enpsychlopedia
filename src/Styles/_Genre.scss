@@ -6,6 +6,7 @@
   font-family: $primary;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .characteristics-container {
@@ -13,17 +14,16 @@
   font-size: 14px;
   font-style: italic;
   font-weight: bold;
-  margin-top: 30px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .characteristic {
-  margin: 0;
   font-size: 14px;
-  font-style: italic;
-  margin: 20px 0;
+  margin: 0;
 }
 
-h1{
+h1 {
   margin: 0;
   padding: 0;
 }
