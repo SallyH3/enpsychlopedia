@@ -3,8 +3,23 @@
 }
 
 .genre-title-container {
+  font-family: $primary;
   display: flex;
   justify-content: space-between;
+}
+
+.characteristics-container {
+  display: flex;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.characteristic {
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
   margin: 20px 0;
 }
 

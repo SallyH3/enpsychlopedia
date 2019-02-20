@@ -5,11 +5,15 @@ export default class Search extends Component {
     super();
   }
 
+  searchBand() {
+    
+  }
+
   render() {
     return  (
       <form>
         <input className='search-input' placeholder='Search...' />
-        <button className='search-btn'>Submit</button>
+        <button className='search-btn' onClick={this.searchBand}>Submit</button>
       </form>
     )
   }
