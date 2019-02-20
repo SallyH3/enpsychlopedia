@@ -29,7 +29,6 @@ This project provides the user with the ability to find all of their favorite ps
 #### Goals:
 Provide a digestable UI and seamless, empathetic UX.
 
-* Build a responsive client-side application.
 * Iterate over large dataset to provide user with information about different bands
 * Give user ability to open and close band popup by clicking on band image
 * Craft code with clean style by using modular components.
