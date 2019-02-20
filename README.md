@@ -3,8 +3,11 @@
 
 
 #### Authors:
+
 Sally Haefling
+
 [Mason France](https://github.com/francepack)
+
 [David Cisneros](https://github.com/LittleD1808)
 
 
