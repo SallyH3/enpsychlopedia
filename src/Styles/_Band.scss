@@ -1,14 +1,21 @@
 .band-container {
+  border-radius: 10px;
   width: 260px;
   height: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
   flex-direction: column;
   position: relative;
+  &:hover {
+    color: pink;
+    box-shadow: 3px 3px 5px 6px black;
+  }
 }
 
 .overlay {
+  border-radius: 10px;
   position: absolute;
   top: 0;
   left: 0;
