@@ -22,9 +22,4 @@ describe('Bands', () => {
       showPopup: false
     });
   });
-
-  it('should populate ')
-
-
-
 });
