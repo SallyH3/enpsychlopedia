@@ -18,6 +18,24 @@ Sally Haefling
 * Enzyme
 * Jest
 
+## Setup
+
+First, clone down the repo.
+
+```bash
+git clone 
+```
+
+Once you have cloned the repo, install the library dependencies. Run:
+
+```bash
+npm install
+```
+To run tests in the game program, Run:
+```bash
+npm test
+```
+
 ---
 
 #### Abstract:
