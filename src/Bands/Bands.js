@@ -42,7 +42,7 @@ export default class Bands extends Component {
   }
 
   render() { 
-  let fallback = this.props.currentSelection;
+  // let fallback = this.props.currentSelection;
   let currentFilter;
   
   if(this.props.currentSelection === 'all') {
@@ -51,12 +51,6 @@ export default class Bands extends Component {
     currentFilter = this.state.active
   } else {
     currentFilter = this.state.inactive
-  }
-  
-  if (!fallback) { 
-    return (
-      <h1>Hi Sally!</h1>
-    )
   }
 
   return (

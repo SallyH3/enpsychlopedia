@@ -1,7 +1,618 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Bands should match snapshot 1`] = `
-<h1>
-  Hi Sally!
-</h1>
+exports[`Bands should match snapshot with active set as filter: second 1`] = `
+<section
+  className="bands-wrapper"
+>
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/7zklXlb.jpg",
+        "label": "Big Time",
+        "members": Array [
+          "Steve Wynn",
+          "Dennis Duck",
+          "Mark Walton",
+          "Jason Victor",
+        ],
+        "name": "The Dream Syndicate",
+        "origin": "Los Angeles California",
+        "sideProjects": Array [
+          "Grave",
+          "Continental Drifters",
+          "Steve Wynn and the Miracle Three",
+          "Gutterball",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="0"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/ClePm63.jpg",
+        "label": "Magna Carta",
+        "members": Array [
+          "Ed Wynne",
+          "Brandi Wynne",
+          "Silas Neptune",
+          "Balazs Szende",
+        ],
+        "name": "Ozric Tentacles",
+        "origin": "Somerset England",
+        "sideProjects": Array [
+          "Eat Static",
+          "Nodens Ictus",
+          "Here and Now",
+          "Invisible System",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="1"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/6zAdp1g.jpg",
+        "label": "Warner Bros",
+        "members": Array [
+          "Dennis Coyne",
+          "Casey Joseph",
+          "Matt Duckworth",
+          "Ford Chastain",
+        ],
+        "name": "Stardeath and the White Dwarfs",
+        "origin": "Oklahoma City Oklahoma",
+        "sideProjects": Array [
+          "The Flaming Lips",
+          "New Fumes",
+          "Linear Downfall",
+          "Spaceface",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="2"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/TdwPPTe.jpg",
+        "label": "Light in the Attic",
+        "members": Array [
+          "Stephanie Bailey",
+          "Christian Bland",
+          "Alex Maas",
+          "Kyle Hunt",
+          "Jake Garcia",
+        ],
+        "name": "The Black Angels",
+        "origin": "Austin TX",
+        "sideProjects": Array [
+          "Mien",
+          "The Viet Minh",
+          "Christian Bland and The Revelators",
+          "The UFO Club",
+          "Sweet Tea",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="3"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/JdLZXQX.jpg",
+        "label": "Tee Pee Records",
+        "members": Array [
+          "Kirpatrick Thomas",
+          "James Acton",
+          "Daniel Allaire",
+          "Joe Baluta",
+          "Bobby Bones",
+          "Becca Davidson",
+          "Julie Patterson",
+        ],
+        "name": "Spindrift",
+        "origin": "Los Angeles CA",
+        "sideProjects": Array [
+          "Brian Jonestown Massacre",
+          "The Warlocks",
+          "Crooked Cowboy",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="4"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/suHhm1z.jpg",
+        "label": "Warner Bros",
+        "members": Array [
+          "Ian McCulloch",
+          "Will Sergeant",
+        ],
+        "name": "Echo and the Bunnymen",
+        "origin": "Liverpool England",
+        "sideProjects": Array [
+          "Electrafixion",
+          "Youth",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="5"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/XoF7K90.jpg",
+        "label": "Capitol",
+        "members": Array [
+          "Steve Kilbey",
+          "Peter Koppes",
+          "Tim Powles",
+          "Ian Haug",
+        ],
+        "name": "The Church",
+        "origin": "Sydney Australia",
+        "sideProjects": Array [
+          "Tactics",
+          "The Crystal Set",
+          "The Reels",
+          "Hex",
+          "The Well",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="6"
+  />
+</section>
+`;
+
+exports[`Bands should match snapshot with inactive set as filter: third 1`] = `
+<section
+  className="bands-wrapper"
+>
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/ciMF4gb.jpg",
+        "label": "Slow River",
+        "members": Array [
+          "Mark Linkous",
+          "Scott Minor",
+        ],
+        "name": "Sparklehorse",
+        "origin": "Richmond Virginia",
+        "sideProjects": Array [
+          "Danger Mouse",
+          "Sol Seppy",
+          "David Lynch",
+          "Angela Faye Martin",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="0"
+  />
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/lamtwzr.jpg",
+        "label": "Tee Pee",
+        "members": Array [
+          "Andrew Moszynski",
+          "Chad Ross",
+          "Mike Maxymuik",
+          "Josh Bauman",
+        ],
+        "name": "Quest for Fire",
+        "origin": "Toronto Canada",
+        "sideProjects": Array [
+          "The Deadly Snakes",
+          "Cursed",
+          "Comet Control",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="1"
+  />
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/2UcOZah.jpg",
+        "label": "Dedicated Records",
+        "members": Array [
+          "Peter Kember",
+          "Jason Pierce",
+          "Tim Morris",
+          "Pete Bain",
+          "Natty Brooker",
+          "Sterling Roswell",
+          "Will Carruthers",
+          "Jonny Mattock",
+          "Mark Refoy",
+        ],
+        "name": "Spacemen 3",
+        "origin": "Warwickshire England",
+        "sideProjects": Array [
+          "Spectrum",
+          "Spiritualized",
+          "Darkside",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="2"
+  />
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/hk7Fasw.png",
+        "label": "Zoo Records",
+        "members": Array [
+          "Julian Cope",
+          "Mick Finkler",
+          "Gary Dwyer",
+          "Paul Simpson",
+          "Ged Quinn",
+          "David Balfe",
+          "Alan Gill",
+          "Alfie Agius",
+          "Jeff Hammer",
+          "Troy Tate",
+          "Ronnie Francois",
+          "Ted Emmett",
+          "Andy Radek",
+        ],
+        "name": "The Teardrops",
+        "origin": "Liverpool England",
+        "sideProjects": Array [
+          "Julian Cope",
+          "Crucial Three",
+          "Big In Japan",
+          "Dalek I Love You",
+          "The Wild Swans",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="3"
+  />
+</section>
+`;
+
+exports[`Bands should match snapshot: first 1`] = `
+<section
+  className="bands-wrapper"
+>
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/ciMF4gb.jpg",
+        "label": "Slow River",
+        "members": Array [
+          "Mark Linkous",
+          "Scott Minor",
+        ],
+        "name": "Sparklehorse",
+        "origin": "Richmond Virginia",
+        "sideProjects": Array [
+          "Danger Mouse",
+          "Sol Seppy",
+          "David Lynch",
+          "Angela Faye Martin",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="0"
+  />
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/lamtwzr.jpg",
+        "label": "Tee Pee",
+        "members": Array [
+          "Andrew Moszynski",
+          "Chad Ross",
+          "Mike Maxymuik",
+          "Josh Bauman",
+        ],
+        "name": "Quest for Fire",
+        "origin": "Toronto Canada",
+        "sideProjects": Array [
+          "The Deadly Snakes",
+          "Cursed",
+          "Comet Control",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="1"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/7zklXlb.jpg",
+        "label": "Big Time",
+        "members": Array [
+          "Steve Wynn",
+          "Dennis Duck",
+          "Mark Walton",
+          "Jason Victor",
+        ],
+        "name": "The Dream Syndicate",
+        "origin": "Los Angeles California",
+        "sideProjects": Array [
+          "Grave",
+          "Continental Drifters",
+          "Steve Wynn and the Miracle Three",
+          "Gutterball",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="2"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/ClePm63.jpg",
+        "label": "Magna Carta",
+        "members": Array [
+          "Ed Wynne",
+          "Brandi Wynne",
+          "Silas Neptune",
+          "Balazs Szende",
+        ],
+        "name": "Ozric Tentacles",
+        "origin": "Somerset England",
+        "sideProjects": Array [
+          "Eat Static",
+          "Nodens Ictus",
+          "Here and Now",
+          "Invisible System",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="3"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/6zAdp1g.jpg",
+        "label": "Warner Bros",
+        "members": Array [
+          "Dennis Coyne",
+          "Casey Joseph",
+          "Matt Duckworth",
+          "Ford Chastain",
+        ],
+        "name": "Stardeath and the White Dwarfs",
+        "origin": "Oklahoma City Oklahoma",
+        "sideProjects": Array [
+          "The Flaming Lips",
+          "New Fumes",
+          "Linear Downfall",
+          "Spaceface",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="4"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/TdwPPTe.jpg",
+        "label": "Light in the Attic",
+        "members": Array [
+          "Stephanie Bailey",
+          "Christian Bland",
+          "Alex Maas",
+          "Kyle Hunt",
+          "Jake Garcia",
+        ],
+        "name": "The Black Angels",
+        "origin": "Austin TX",
+        "sideProjects": Array [
+          "Mien",
+          "The Viet Minh",
+          "Christian Bland and The Revelators",
+          "The UFO Club",
+          "Sweet Tea",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="5"
+  />
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/2UcOZah.jpg",
+        "label": "Dedicated Records",
+        "members": Array [
+          "Peter Kember",
+          "Jason Pierce",
+          "Tim Morris",
+          "Pete Bain",
+          "Natty Brooker",
+          "Sterling Roswell",
+          "Will Carruthers",
+          "Jonny Mattock",
+          "Mark Refoy",
+        ],
+        "name": "Spacemen 3",
+        "origin": "Warwickshire England",
+        "sideProjects": Array [
+          "Spectrum",
+          "Spiritualized",
+          "Darkside",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="6"
+  />
+  <Band
+    band={
+      Object {
+        "active": false,
+        "genreId": 1,
+        "image": "https://i.imgur.com/hk7Fasw.png",
+        "label": "Zoo Records",
+        "members": Array [
+          "Julian Cope",
+          "Mick Finkler",
+          "Gary Dwyer",
+          "Paul Simpson",
+          "Ged Quinn",
+          "David Balfe",
+          "Alan Gill",
+          "Alfie Agius",
+          "Jeff Hammer",
+          "Troy Tate",
+          "Ronnie Francois",
+          "Ted Emmett",
+          "Andy Radek",
+        ],
+        "name": "The Teardrops",
+        "origin": "Liverpool England",
+        "sideProjects": Array [
+          "Julian Cope",
+          "Crucial Three",
+          "Big In Japan",
+          "Dalek I Love You",
+          "The Wild Swans",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="7"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/JdLZXQX.jpg",
+        "label": "Tee Pee Records",
+        "members": Array [
+          "Kirpatrick Thomas",
+          "James Acton",
+          "Daniel Allaire",
+          "Joe Baluta",
+          "Bobby Bones",
+          "Becca Davidson",
+          "Julie Patterson",
+        ],
+        "name": "Spindrift",
+        "origin": "Los Angeles CA",
+        "sideProjects": Array [
+          "Brian Jonestown Massacre",
+          "The Warlocks",
+          "Crooked Cowboy",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="8"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/suHhm1z.jpg",
+        "label": "Warner Bros",
+        "members": Array [
+          "Ian McCulloch",
+          "Will Sergeant",
+        ],
+        "name": "Echo and the Bunnymen",
+        "origin": "Liverpool England",
+        "sideProjects": Array [
+          "Electrafixion",
+          "Youth",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="9"
+  />
+  <Band
+    band={
+      Object {
+        "active": true,
+        "genreId": 1,
+        "image": "https://i.imgur.com/XoF7K90.jpg",
+        "label": "Capitol",
+        "members": Array [
+          "Steve Kilbey",
+          "Peter Koppes",
+          "Tim Powles",
+          "Ian Haug",
+        ],
+        "name": "The Church",
+        "origin": "Sydney Australia",
+        "sideProjects": Array [
+          "Tactics",
+          "The Crystal Set",
+          "The Reels",
+          "Hex",
+          "The Well",
+        ],
+      }
+    }
+    fetchBand={[Function]}
+    key="10"
+  />
+</section>
 `;
