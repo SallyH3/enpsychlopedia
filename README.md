@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## enpsychlopedia
+---
 
-## Available Scripts
 
-In the project directory, you can run:
+#### Authors:
+Sally Haefling, Mason France, David Cisneros
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Built with:
+* React JS
+* Fetch API
+* SCSS 
+* Enzyme
+* Jest
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+#### Abstract:
+This project provides the user with the ability to find all of their favorite psychedelic music genres in ONE place instead of having to search through Wikipedia and click on various buttons over and over again to find what they're looking for. For this project we worked as a group to write a program in React for the first time during Mod2 at Turing School of Software & Design. This was an opportunity to reinforce and solidify the concepts we had learned so far - JS fundamentals, OOP, working with large datasets, and developing workflows. We collaborated, created, and iterated on user stories. We constructed a complex dataset (we chose to do our project on psychedelic rock music as we were given autonomy over our datasets) and implemented array mutator and iterator methods to work with the data. 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Goals:
+Provide a digestable UI and seamless, empathetic UX.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* Build a responsive client-side application.
+* Iterate over large dataset to provide user with information about different bands
+* Give user ability to open and close band popup by clicking on band image
+* Craft code with clean style by using modular components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Challenges:
+As this was our first project in React, we found ourselves struggling with the Fetch API and our overall understanding of asynchronous Javascript. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Wins:
+We all felt as though we learned a lot during this project by bouncing ideas off of one another, rotating driver-navigator, and utilizing divide and conquer towards the end of the project. We were able to walk away with a good understanding of how components talk to each other and 'data down, actions up' became more clear towards the end of the project. 
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Wishlist Item(s):
+We would like to provide the user with an auto-fill search bar to search through the bands and provide a popup of that individual band's respective information. It would also be nice to make the app more dynamic allowing the user to add bands as they wish to the scroll bar.
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+### Desktop view:
+---
+image here
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Hover state:
+---
+image here
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Mobile view (to 320px):
+---
+image here
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
