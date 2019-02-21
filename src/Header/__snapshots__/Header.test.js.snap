@@ -9,5 +9,10 @@ exports[`Header should match snapshot 1`] = `
   >
     enpsychlopedia
   </h1>
+  <p
+    className="sub-head"
+  >
+    A one stop shop to find information about your favorite psych rock bands by genre.
+  </p>
 </div>
 `;

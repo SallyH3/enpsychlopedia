@@ -1,7 +1,8 @@
+/*Indivial Genre Containers*/
 .genre-container {
   margin: 0 40px;
 }
-
+/*Indivial Genre Title Container*/
 .genre-title-container {
   align-items: center;
   font-family: $primary;
@@ -9,7 +10,7 @@
   justify-content: space-between;
   margin-bottom: 10px;
 }
-
+/*Indivial Genre Container For Characteristics*/
 .characteristics-container {
   display: flex;
   font-size: 20px;
@@ -17,13 +18,13 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-
+/*Every Genre Charactistic*/
 .characteristic {
   font-size: 20px;
   font-weight: normal;
   margin: 0;
 }
-
+/*Indivial Genre Title*/
 .genre-title h1 {
   font-size: 40px;
   margin: 0;

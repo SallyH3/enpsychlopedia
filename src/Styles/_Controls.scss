@@ -1,7 +1,8 @@
+/*Button Container*/
 .filter-btn {
   display: flex;
 }
-
+/*Indivial Band Overlay*/
 .filter-btn button {
   @include btn-rules;
   background-color: hsl(194, 86%, 64%);

@@ -1,3 +1,4 @@
+/*Popup container*/
 .popup-container {
   background-image: linear-gradient(hsla(248, 60%, 77%, 1),
   hsla(341, 60%, 77%, 1),
@@ -12,7 +13,7 @@
   text-align: center;
   position: relative;
 }
-
+/*Overlay for Popup*/
 .modal {
   background: rgba(0, 0, 0, 0.7);
   position: fixed;
@@ -24,12 +25,12 @@
   height: 100%;
   z-index: 4;
 }
-
+/*Popup info*/
 .side-projects {
   margin-bottom: 3px;
   margin-left: 50px;
 }
-
+/*Popup X Button*/
 .close-popup {
   @include btn-rules;
   border-radius: 50%;
@@ -41,19 +42,19 @@
   left: 92%;
   top: 5%;
 }
-
+/*Popup head container*/
 .popup-head {
   display: flex;
   justify-content: space-between;
   margin: 30px;
 }
-
+/*Popup Band Image*/
 .popup-head img {
   border-radius: 10px;
   height: 300px;
   width: 300px;
 }
-
+/*Popup Band Name*/
 .popup-bandname {
   margin-left: 40px;
   text-align: center;
@@ -70,7 +71,7 @@
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
+/*Popup Info About Band*/
 .popup-info {
   display: flex;
   margin: 0 33px;

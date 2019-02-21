@@ -27,7 +27,7 @@ exports[`Bands should match snapshot with active set as filter: second 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="0"
   />
   <Band
@@ -53,7 +53,7 @@ exports[`Bands should match snapshot with active set as filter: second 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="1"
   />
   <Band
@@ -79,7 +79,7 @@ exports[`Bands should match snapshot with active set as filter: second 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="2"
   />
   <Band
@@ -107,7 +107,7 @@ exports[`Bands should match snapshot with active set as filter: second 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="3"
   />
   <Band
@@ -135,7 +135,7 @@ exports[`Bands should match snapshot with active set as filter: second 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="4"
   />
   <Band
@@ -157,7 +157,7 @@ exports[`Bands should match snapshot with active set as filter: second 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="5"
   />
   <Band
@@ -184,7 +184,7 @@ exports[`Bands should match snapshot with active set as filter: second 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="6"
   />
 </section>
@@ -215,7 +215,7 @@ exports[`Bands should match snapshot with inactive set as filter: third 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="0"
   />
   <Band
@@ -240,7 +240,7 @@ exports[`Bands should match snapshot with inactive set as filter: third 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="1"
   />
   <Band
@@ -270,7 +270,7 @@ exports[`Bands should match snapshot with inactive set as filter: third 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="2"
   />
   <Band
@@ -306,7 +306,7 @@ exports[`Bands should match snapshot with inactive set as filter: third 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="3"
   />
 </section>
@@ -337,7 +337,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="0"
   />
   <Band
@@ -362,7 +362,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="1"
   />
   <Band
@@ -388,7 +388,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="2"
   />
   <Band
@@ -414,7 +414,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="3"
   />
   <Band
@@ -440,7 +440,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="4"
   />
   <Band
@@ -468,7 +468,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="5"
   />
   <Band
@@ -498,7 +498,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="6"
   />
   <Band
@@ -534,7 +534,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="7"
   />
   <Band
@@ -562,7 +562,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="8"
   />
   <Band
@@ -584,7 +584,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="9"
   />
   <Band
@@ -611,7 +611,7 @@ exports[`Bands should match snapshot: first 1`] = `
         ],
       }
     }
-    fetchBand={[Function]}
+    getCurrentBand={[Function]}
     key="10"
   />
 </section>
