@@ -35,3 +35,10 @@
   z-index: 1;
   position: absolute;
 }
+
+@media screen and (max-width: 540px) {
+  .band-container {
+    height: 220px;
+    width: 220px;
+  }
+}

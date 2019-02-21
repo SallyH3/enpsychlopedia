@@ -14,6 +14,7 @@
   display: flex;
   font-size: 20px;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -23,27 +24,54 @@
   margin: 0;
 }
 
-h1 {
+.genre-title h1 {
   font-size: 40px;
   margin: 0;
-  padding: 0;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1210px) {
   .genre-title-container {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
-    
+    margin-bottom: 20px;
+    &:first-child {
+      margin-top: 40px;
+    };
+  }
+
+  .genre-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .characteristics-container {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     height: 40px;
   }
 
   .characteristic {
     display: flex;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .genre-title-container {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .genre-title h1 {
+    font-size: 30px;
+  }
+
+  .characteristics-container {   
+    font-size: 14px;
+  }
+
+  .characteristic {
+    font-size: 14px;
   }
 }

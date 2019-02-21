@@ -14,3 +14,24 @@
     margin-right: 0;
   }
 }
+
+@media screen and (max-width: 1210px) {
+  .filter-btn button {
+    height: 40px;
+    width: 100px;
+    margin-right: 60px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .filter-btn button {
+    margin-right: 30px;
+    width: 80px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
