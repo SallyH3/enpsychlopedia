@@ -56,23 +56,6 @@ Provide a digestable UI and seamless, empathetic UX.
 ---
 
 
-#### Challenges:
-As this was our first project in React, we found ourselves struggling with the Fetch API and our overall understanding of asynchronous Javascript. 
-
----
-
-
-#### Wins:
-We all felt as though we learned a lot during this project by bouncing ideas off of one another, rotating driver-navigator, and utilizing divide and conquer towards the end of the project. We were able to walk away with a good understanding of how components talk to each other and 'data down, actions up' became more clear towards the end of the project. 
-
----
-
-
-#### Wishlist Item(s):
-We would like to provide the user with an auto-fill search bar to search through the bands and provide a popup of that individual band's respective information. It would also be nice to make the app more dynamic allowing the user to add bands as they wish to the scroll bar.
-
----
-
 ### Wireframe:
 
 <img width="825" alt="screen shot 2019-02-19 at 8 53 40 pm" src="https://user-images.githubusercontent.com/40863560/53065360-8ac6ed00-3488-11e9-919d-056a1a15b5a0.png">
@@ -94,6 +77,24 @@ We would like to provide the user with an auto-fill search bar to search through
 
 image here
 
+---
+
+#### Challenges:
+As this was our first project in React, we found ourselves struggling with the Fetch API and our overall understanding of asynchronous Javascript. 
+
+---
+
+
+#### Wins:
+We all felt as though we learned a lot during this project by bouncing ideas off of one another, rotating driver-navigator, and utilizing divide and conquer towards the end of the project. We were able to walk away with a good understanding of how components talk to each other and 'data down, actions up' became more clear towards the end of the project. 
+
+---
+
+
+#### Wishlist Item(s):
+We would like to provide the user with an auto-fill search bar to search through the bands and provide a popup of that individual band's respective information. It would also be nice to make the app more dynamic allowing the user to add bands as they wish to the scroll bar.
+
+---
 
 
 
