@@ -75,17 +75,21 @@ We would like to provide the user with an auto-fill search bar to search through
 
 <img width="825" alt="screen shot 2019-02-19 at 8 53 40 pm" src="https://user-images.githubusercontent.com/40863560/53065360-8ac6ed00-3488-11e9-919d-056a1a15b5a0.png">
 
-### Desktop view:
+### Desktop view and popup:
 ---
-image here
+
+![screencapture-localhost-3000-2019-02-20-19_08_53 1](https://user-images.githubusercontent.com/40863560/53139491-0a1af600-3547-11e9-91f1-ce852299a931.png)
+
+![screencapture-localhost-3000-2019-02-20-19_12_14](https://user-images.githubusercontent.com/40863560/53139542-29198800-3547-11e9-99ae-ee9c5b59590b.png)
 
 ### Hover state:
 ---
-image here
 
+![screen shot 2019-02-20 at 7 11 31 pm](https://user-images.githubusercontent.com/40863560/53139595-58c89000-3547-11e9-9b59-7821a7ff62d7.png)
 
 ### Mobile view (to 320px):
 ---
+
 image here
 
 
