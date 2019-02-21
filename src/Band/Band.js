@@ -6,7 +6,7 @@ export default class Band extends Component {
   }
 
   sendBandData = () => {
-    this.props.fetchBand(this.props.band);
+    this.props.getCurrentBand(this.props.band);
   }
 
   render() {

@@ -18,7 +18,7 @@ export default class Genre extends Component {
     let bandsOrganized = this.props.sortedBands;
     if (!bandsOrganized) { 
       return (
-        <h1>Hi Sally!</h1>
+        <h1>Hello world</h1>
       )
     }
 
