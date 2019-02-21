@@ -22,7 +22,7 @@ let mockBand = {
   ]
 };
 
-const fetchBandMock = jest.fn();
+const getCurrentBandMock = jest.fn();
 
 describe('Band', () => {
   let wrapper;
@@ -31,7 +31,7 @@ describe('Band', () => {
       <Band 
         key={1}
         band={mockBand}
-        fetchBand={fetchBandMock}
+        getCurrentBand={getCurrentBandMock}
       />
     )
   });
@@ -42,7 +42,7 @@ describe('Band', () => {
 
   it('should invoke sendBandData when a band is clicked', () => {
     wrapper.find('.band-container').simulate('click', { preventDefault: () => {}});
-    expect(fetchBandMock).toBeCalled(); 
+    expect(getCurrentBandMock).toBeCalled(); 
   });
 
 

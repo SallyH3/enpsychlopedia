@@ -6,6 +6,8 @@
   @include btn-rules;
   background-color: hsl(194, 86%, 64%);
   flex-wrap: nowrap;
+  font-family: $primary;
+  font-size: 18px;
   margin-right: 20px;
   width: 70px;
   &:last-child {

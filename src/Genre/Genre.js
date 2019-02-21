@@ -18,26 +18,30 @@ export default class Genre extends Component {
     let bandsOrganized = this.props.sortedBands;
     if (!bandsOrganized) { 
       return (
-        <h1>Hi Sally!</h1>
+        <h1>Hello world</h1>
       )
     }
 
    return (
     <section className='genre-container'>
       <div className='genre-title-container'>
-        <h1>{this.props.genre.genre.toLowerCase()}</h1>
-        <div className='characteristics-container'>Characteristics: &nbsp; 
-        {this.props.genre.characteristics.map((characteristic, i) => {
-          if(i === this.props.genre.characteristics.length - 1) {
-          return <h3 className='characteristic'>{characteristic}</h3>
-          } else {
-            return <h3 className='characteristic'>{characteristic}, &nbsp;</h3>
+        <div className='genre-title'>
+          <h1>{this.props.genre.genre.toLowerCase()}</h1>
+          <div className='characteristics-container'>Characteristics: &nbsp; 
+            {this.props.genre.characteristics.map((characteristic, i) => {
+              if(i === this.props.genre.characteristics.length - 1) {
+              return <h3 className='characteristic'>{characteristic}</h3>
+              } else {
+              return <h3 className='characteristic'>{characteristic}, &nbsp;</h3>
+              }
             }
-          }
-        )}
+          )}
+          </div>
         </div>
+        <div>
         <Controls getActivity={this.getActivity}
         />
+        </div>
       </div>
       <h1>{this.props.genreIndex}</h1>
       <Bands 

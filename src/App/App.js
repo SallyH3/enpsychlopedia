@@ -14,14 +14,14 @@ class App extends Component {
   }
 
    organizeData = () =>  {
-    let data = this.state.genres.reduce((arr, genre) => {
+    let bandInformation = this.state.genres.reduce((arr, genre) => {
         arr.push(this.state.bands.filter((band) => {
           return genre.id === band.genreId;
         }))
         return arr;
       }, []); 
     this.setState({ 
-      bandsById: data
+      bandsById: bandInformation
     })
   }
 

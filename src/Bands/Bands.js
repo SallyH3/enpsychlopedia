@@ -36,13 +36,13 @@ export default class Bands extends Component {
     this.assignInactiveBands();
   }
 
-  fetchCurrentBand = (band) => {
+  retrieveCurrentBand = (band) => {
     this.setState({currentPopup: band});
     this.togglePopup();
   }
 
   render() { 
-  // let fallback = this.props.currentSelection;
+  let selection = this.props.currentSelection;
   let currentFilter;
   
   if(this.props.currentSelection === 'all') {
@@ -52,6 +52,12 @@ export default class Bands extends Component {
   } else {
     currentFilter = this.state.inactive
   }
+  
+  if (!selection) { 
+    return (
+      <h1>Hello world</h1>
+    )
+  }
 
   return (
     <section className='bands-wrapper'>
@@ -59,7 +65,7 @@ export default class Bands extends Component {
         <Band 
           key={index}
           band={band}
-          fetchBand={this.fetchCurrentBand}
+          getCurrentBand={this.retrieveCurrentBand}
         />
       ))}
       {this.state.showPopup ? 
