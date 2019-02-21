@@ -7,11 +7,3 @@ exports[`App should match snapshot 1`] = `
   <Header />
 </div>
 `;
-
-exports[`App should render to the DOM 1`] = `
-<div
-  className="app"
->
-  <Header />
-</div>
-`;
