@@ -8,7 +8,7 @@
   background-image: linear-gradient(hsla(60, 100%, 55%, 1),
   hsla(300, 100%, 25%, 1), hsla(195, 53%, 79%, 1));
   display: grid;
-  grid-template-rows: 160px 360px 360px 360px;
+  grid-template-rows: 160px 360px 360px 380px;
   grid-template-columns: 100vw;
 }
 
@@ -27,9 +27,14 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1210px) {
   .app {
-      grid-template-rows: 100px 410px 410px 410px;
+    grid-template-rows: 160px 465px 465px 485px;
+  }
+}
 
+@media screen and (max-width: 540px) {
+  .app {
+    grid-template-rows: 160px 430px 430px 450px;
   }
 }
