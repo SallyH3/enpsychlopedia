@@ -2,98 +2,104 @@
 
 exports[`Popup should match snapshot 1`] = `
 <div
-  className="popup-container"
+  className="modal"
 >
-  <button
-    className="close-popup"
-  >
-    X
-  </button>
   <div
-    className="popup-head"
+    className="popup-container"
   >
-    <img
-      src="https://i.imgur.com/oZCj9bF.jpg"
-    />
-    <div
-      className="popup-bandname"
+    <button
+      className="close-popup"
     >
-      <h1>
-        Electric Wizard
-      </h1>
+      X
+    </button>
+    <div
+      className="popup-head"
+    >
+      <img
+        src="https://i.imgur.com/oZCj9bF.jpg"
+      />
+      <div
+        className="popup-bandname"
+      >
+        <h1>
+          Electric Wizard
+        </h1>
+        <h4>
+          Dorset England
+        </h4>
+        <h4>
+          Label:   
+          Rise Above
+        </h4>
+      </div>
+    </div>
+    <div
+      className="popup-info"
+    >
       <h4>
-        Dorset England
+        Members:   
+        <p
+          key="0"
+        >
+          Jus Oborn
+        </p>
+        <p
+          key="1"
+        >
+          Liz Buckingham
+        </p>
+        <p
+          key="2"
+        >
+          Clayton Burgess
+        </p>
+        <p
+          key="3"
+        >
+          Simon Poole
+        </p>
       </h4>
-      <h4>
-        Label:   
-        Rise Above
+      <h4
+        className="side-projects"
+      >
+        Side Projects:   
+        <p
+          key="0"
+        >
+          Ramesses
+        </p>
+        <p
+          key="1"
+        >
+          Sourvein
+        </p>
+        <p
+          key="2"
+        >
+          Iron Monkey
+        </p>
+        <p
+          key="3"
+        >
+          Teeth of Lions
+        </p>
+        <p
+          key="4"
+        >
+          Rule the Divine
+        </p>
+        <p
+          key="5"
+        >
+          Crippled Black Phoenix
+        </p>
+        <p
+          key="6"
+        >
+          With the Dead
+        </p>
       </h4>
     </div>
-  </div>
-  <div
-    className="popup-info"
-  >
-    <h4>
-      Members:   
-      <p
-        key="0"
-      >
-        Jus Oborn
-      </p>
-      <p
-        key="1"
-      >
-        Liz Buckingham
-      </p>
-      <p
-        key="2"
-      >
-        Clayton Burgess
-      </p>
-      <p
-        key="3"
-      >
-        Simon Poole
-      </p>
-    </h4>
-    <h4>
-      Side Projects:   
-      <p
-        key="0"
-      >
-        Ramesses
-      </p>
-      <p
-        key="1"
-      >
-        Sourvein
-      </p>
-      <p
-        key="2"
-      >
-        Iron Monkey
-      </p>
-      <p
-        key="3"
-      >
-        Teeth of Lions
-      </p>
-      <p
-        key="4"
-      >
-        Rule the Divine
-      </p>
-      <p
-        key="5"
-      >
-        Crippled Black Phoenix
-      </p>
-      <p
-        key="6"
-      >
-        With the Dead
-      </p>
-    </h4>
   </div>
 </div>
 `;

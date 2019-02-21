@@ -1,5 +1,5 @@
 @import 'SassMixins';
-
+/*Header Container*/
 .header-container {
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   align-items: center;
   margin: 0px 40px;
 }
-
+/*Header Title*/
 .header-title {
   color: $pink-purple;
   font-family: $primary;
@@ -15,7 +15,7 @@
   margin-top: 15px;
   margin-bottom: 0;
 }
-
+/*Header Info About Page*/
 .sub-head {
   font-family: $primary;
   font-size: 30px;

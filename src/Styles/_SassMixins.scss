@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Stylish');
-
+// importing a font from google fonts.
 $primary: 'Stylish', sans-serif;
-
+// utilizing our fount we imported and setting it to a var.
 $dark-purple: hsla(248, 60%, 51%, 1);
 $pink-purple: hsla(296, 63%, 33%, 1);
-
+// here we got our main color theme that were implmenting through Popup and header
 @mixin btn-rules {
   border: 0;
   border-radius: 5px;
@@ -20,3 +20,4 @@ $pink-purple: hsla(296, 63%, 33%, 1);
     cursor: pointer;
   }
 }
+// Our btn-rules mixin is for all of our buttons and creates consistency through out all buttons
