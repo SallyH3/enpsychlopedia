@@ -75,7 +75,7 @@ Provide a digestable UI and seamless, empathetic UX.
 ### Mobile view (to 320px):
 ---
 
-image here
+![screencapture-localhost-3000-2019-02-21-07_56_31](https://user-images.githubusercontent.com/40863560/53178090-6c5b1180-35ae-11e9-8d3e-b3487992fc0c.png)
 
 ---
 
