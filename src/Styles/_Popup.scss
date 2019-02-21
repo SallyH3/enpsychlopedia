@@ -1,11 +1,12 @@
 .popup-container {
-  background-image: linear-gradient(hsla(248, 60%, 77%, 1),hsla(341, 60%, 77%, 1),hsla(190, 60%, 63%, 1));
-  left: 30%;
-  top: 16%;
+  background-image: linear-gradient(hsla(248, 60%, 77%, 1),
+  hsla(341, 60%, 77%, 1),
+  hsla(190, 60%, 63%, 1));
+  left: 28%;
+  top: 3%;
   z-index: 5;
   font-family: $primary;
-  width: 40%;
-  padding: 20px;
+  width: 53%;
   border: 2px solid hsla(234, 100%, 95%, 1);
   border-radius: 10px;
   text-align: center;
@@ -24,9 +25,8 @@
   z-index: 4;
 }
 
-.popup-container h4 {
-  font-size: 18px;
-  margin: 0;
+.side-projects {
+  margin-bottom: 3px;
 }
 
 .close-popup {
@@ -47,6 +47,8 @@
 
 .popup-head img {
   border-radius: 10px;
+  height: 300px;
+  width: 300px;
 }
 
 .popup-bandname {
@@ -57,21 +59,29 @@
 .popup-bandname h1 {
   margin-top: 75px;
   font-size: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   white-space: pre-line;
 }
 
 .popup-bandname h4 {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .popup-info {
   display: flex;
-  margin: 0 30px;
+  margin: 0 33px;
+  margin-top: 0;
   white-space: pre-line;
+}
+
+.popup-info h4 {
+  margin-right: 10px;
 }
 
 .popup-info p {
   font-size: 14px;
   margin-right: 10px;
+  margin: 0;
+  margin-bottom: 2px;
 }

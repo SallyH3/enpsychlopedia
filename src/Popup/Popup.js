@@ -22,7 +22,7 @@ export default class Popup extends Component {
           <h4>Members: &nbsp; {this.props.currentBandInfo.members.map((member, index) => {
             return <p key={index}>{member}</p>
           })}</h4>
-          <h4>Side Projects: &nbsp; {this.props.currentBandInfo.sideProjects.map((project, index) => {
+          <h4 className='side-projects'>Side Projects: &nbsp; {this.props.currentBandInfo.sideProjects.map((project, index) => {
             return <p key={index}>{project}</p>
           })}</h4>
         </div>
